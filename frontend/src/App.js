@@ -133,7 +133,7 @@ const SessionManager = () => {
           Restore Latest Session
         </button>
         <p className="text-sm text-gray-600 mt-2">
-          This will download and restore the most recent session from Mega.nz
+          This will download and restore the most recent session from secure storage
         </p>
       </div>
 
