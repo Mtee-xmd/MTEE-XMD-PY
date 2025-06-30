@@ -377,7 +377,7 @@ function App() {
 
           {/* Footer */}
           <div className="text-center mt-12 text-gray-500">
-            <p>WhatsApp Bot with Mega.nz Storage - Secure session management</p>
+            <p>WhatsApp Bot with Secure Session Storage - Local secure session management</p>
           </div>
         </div>
       </div>
