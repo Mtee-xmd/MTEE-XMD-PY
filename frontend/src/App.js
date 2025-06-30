@@ -159,12 +159,11 @@ const SessionManager = () => {
                   </div>
                   <div className="flex space-x-2">
                     <a
-                      href={session.mega_link}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href="#"
+                      onClick={(e) => {e.preventDefault(); alert('File stored securely locally');}}
                       className="px-3 py-1 bg-gray-500 text-white text-sm rounded hover:bg-gray-600"
                     >
-                      View in Mega
+                      Stored Securely
                     </a>
                     <button
                       onClick={() => handleDownload(session.mega_file_id, session.filename)}
