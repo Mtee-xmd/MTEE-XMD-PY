@@ -336,10 +336,10 @@ function App() {
           {/* Header */}
           <div className="text-center mb-8">
             <h1 className="text-4xl font-bold text-gray-800 mb-2">
-              WhatsApp Bot with Mega.nz Storage
+              WhatsApp Bot with Secure Session Storage
             </h1>
             <p className="text-gray-600">
-              Manage your WhatsApp bot sessions with secure cloud storage
+              Manage your WhatsApp bot sessions with secure local storage
             </p>
           </div>
 
